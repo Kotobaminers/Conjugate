@@ -1,0 +1,16 @@
+main: org.kotobaminers.kmconjugation.Conjugate
+name: Conjugation
+version: 1.0
+author: Cheapshot
+description: A plugin to test conjugation of Japanese verbs
+commands:
+  hello:
+    description: A command to test the the sendMessage() method.
+    usage: /hello
+    permission: kmconjugate.conjugate
+    permission-message: You don't have permission to use this command.
+  conjugate:
+    description: A command that will be used to access the conjugate menu
+    usage: /conjugate
+    permission: kmconjugate.conjugate
+    permission-message: You don't have permission to use this command.
