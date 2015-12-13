@@ -6,6 +6,8 @@ public class ConjPlayer {
 	private UUID uuid = null;
 	private String mode = "past";
 	private int times = 10;
+	
+	// edited here
 
 	public UUID getUuid() {
 		return uuid;
